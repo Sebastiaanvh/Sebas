@@ -1,0 +1,19 @@
+uuid: 660fc759-6a7d-47a4-bab4-219515014645
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_beschrijving
+field_name: field_beschrijving
+entity_type: node
+type: text_with_summary
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

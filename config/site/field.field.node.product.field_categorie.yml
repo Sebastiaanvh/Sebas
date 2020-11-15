@@ -1,0 +1,29 @@
+uuid: 95010288-5811-458e-8529-16773c64f934
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_categorie
+    - node.type.product
+    - taxonomy.vocabulary.categorie
+id: node.product.field_categorie
+field_name: field_categorie
+entity_type: node
+bundle: product
+label: Categorie
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      categorie: categorie
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
